@@ -21,7 +21,6 @@ char msg[BUFFER_SIZE];
 int mode;
 int value;
 
-  
   while (1) {
     int receive_code = i2c_slave.receive();
     switch (receive_code) {
